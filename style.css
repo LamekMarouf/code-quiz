@@ -1,3 +1,97 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --maincolor: rgb(59, 113, 99);
+    --secondcolor: rgb(184, 168, 129);
+    --thirdcolor: rgb(157, 157, 157);
+}
+
+body {
+    background-color: white;
+}
+.startbutton {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+.infobox {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.startbutton button {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--maincolor);
+    cursor: pointer;
+}
+
+.infobox {
+    display: none;
+    width: 540px;
+    background: var(--maincolor);
+    border-radius: 5px;
+}
+
+.infobox .infotitle {
+    color: white;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.infobox .infolist {
+   padding: 15px 25px;
+}
+
+.infobox .infolist .info {
+    color: white;
+    font-size: 18px;
+
+}
+
+.infobox .buttons {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    border-top: 1px solid white;
+}
+
+.infobox .buttons button {
+    margin: 5px;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    background-color: var(--maincolor);
+    border-style: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.infobox .buttons button:hover {
+    background-color: white;
+    border: 1px solid var(--maincolor);
+    color: var(--maincolor);
+    transition: ease .5s;
 }

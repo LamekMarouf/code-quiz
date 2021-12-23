@@ -8,7 +8,7 @@ This project is a code quiz that I made from scratch. When you first visit the p
 
 https://lamekmarouf.github.io/code-quiz/
 
-## Screenshot of mt project
+## Screenshot of my project
 
 
 

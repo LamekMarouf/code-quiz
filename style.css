@@ -347,6 +347,7 @@ footer button.show{
 .result_box .complete_text{
     font-size: 20px;
     font-weight: 500;
+    color: white;
 }
 
 .result_box .score_text span{
@@ -354,11 +355,13 @@ footer button.show{
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
+    color: white;
 }
 
 .result_box .score_text span p{
     padding: 0 4px;
     font-weight: 600;
+    color: white;
 }
 
 .result_box .buttons{
@@ -370,7 +373,7 @@ footer button.show{
     margin: 0 10px;
     height: 45px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     cursor: pointer;
     border: none;
@@ -389,7 +392,7 @@ footer button.show{
     background: #0263ca;
 }
 
-.buttons button.quit{
+.buttons button.quit, button.submit{
     color: var(--maincolour);
     background: var(--secondcolor);
 }
@@ -399,6 +402,7 @@ footer button.show{
     background: var(--maincolour);
 }
 
-#submit {
-    width: 200px;
+.buttons button.submit:hover{
+    color: var(--secondcolor);
+    background: var(--maincolour);
 }
